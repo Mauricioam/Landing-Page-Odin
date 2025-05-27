@@ -40,3 +40,31 @@ footer,
   color: #e5e7eb;
   font-size: 18px;
 }
+.hero-text-color-size {
+  color: #f9faf8;
+  font-size: 48px;
+}
+
+/*Main section*/
+.main-section {
+  min-height: 360px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-message {
+  display: flex;
+  flex-direction: column;
+}
+.hero-btn button {
+  padding: 6px 28px;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: #f9faf8;
+}
+.image-container {
+  background-color: #e5e7eb;
+}
