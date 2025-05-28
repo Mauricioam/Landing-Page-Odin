@@ -40,7 +40,7 @@ footer,
 /* Colors and fonts size */
 .link-subtext-color-size {
   color: #e5e7eb;
-  font-size: 18px;
+  font-size: 15px;
 }
 .hero-text-color-size {
   color: #f9faf8;
@@ -69,4 +69,38 @@ footer,
 }
 .image-container {
   background-color: #e5e7eb;
+  width: 380px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*Info section  */
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  padding-top: 25px;
+}
+.card-container {
+  display: flex;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 8px;
+  border: 3px solid #3882f6;
+}
+.card-txt {
+  color: black;
+  text-align: center;
 }
